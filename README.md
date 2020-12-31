@@ -17,20 +17,24 @@ The next part is to estimate the roll, pitch and yaw by first finding the deriva
 ![](/images/Scene7.png)
 
 The integration is done by multiplying the derivatives with dt. 
-
-
+![](/images/sene7.png)
 
 **Scenario 8: Prediction**
 
 The PredictState method and RbgPrime need to adapted using the following equations. 
+![](/images/scen7_2.png)
 
+![](/images/scen7_3.png)
 
 **Scenario 9: Magnetometer**
 
 Again refering to the paper Estimation for Quadrotors, and using the equations in the UpdatefromMag method, we will implement the magnetometer. 
+![](/images/Scene8.png)
+![](/images/Scene8_2.png)
 
 
 **Scenario 10 : GPS Update**
 
 The GPS update is performed by updating the equation for GPS update from the same paper. 
-
+![](/images/Scene9.png)
+![](/images/Scene9_2.png)
