@@ -14,8 +14,10 @@ This step is simple. The simulator will provide GPS and IMU measurements. We nee
 
 The next part is to estimate the roll, pitch and yaw by first finding the derivatives using the following formula and then integrating it. 
 
+![](/images/Scene7.png)
 
 The integration is done by multiplying the derivatives with dt. 
+
 
 
 **Scenario 8: Prediction**
