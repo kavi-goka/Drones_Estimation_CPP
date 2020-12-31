@@ -22,6 +22,7 @@ The integration is done by multiplying the derivatives with dt.
 **Scenario 8: Prediction**
 
 The PredictState method and RbgPrime need to adapted using the following equations. 
+![](/images/RB.png)
 ![](/images/scen7_2.png)
 
 ![](/images/scen7_3.png)
