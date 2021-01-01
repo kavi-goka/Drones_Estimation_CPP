@@ -6,6 +6,9 @@ The main goal of this project is to implement an estimator for the drone by also
 
 This step is simple. The simulator will provide GPS and IMU measurements. We need to calculate the standard deviation for the sensors. This can be done by loading the txt files and using the np.std function to find the SD. 
 
+MeasuredStdDev_GPSPosXY = 0.704
+MeasuredStdDev_AccelXY = 0.502
+
 ![](/images/Scene6.png)
 ![](/images/scene6_2.png)
 
