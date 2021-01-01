@@ -2,7 +2,7 @@
 
 The main goal of this project is to implement an estimator for the drone by also combining the Controls developed in the previous project (Scenario 1-5).
 
-**Scenario 6: Sensor Noise **
+**Scenario 6: Sensor Noise**
 
 This step is simple. The simulator will provide GPS and IMU measurements. We need to calculate the standard deviation for the sensors. This can be done by loading the txt files and using the np.std function to find the SD. 
 
